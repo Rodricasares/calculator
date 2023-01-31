@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Js & HTML
+    </title>
+    <script type="module" src="/counter.js"></script>
+    <style>
+      body{
+        font-family: sans-serif;
+        text-align: center;
+      }
+      input{
+        display: flex;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+     p{
+      width: auto;
+      color: brown;
+      height: 50px;
+      padding: 2px;
+      background-color: rgb(233, 244, 245);
+      border: 2px rgb(240, 180, 174) solid ;
+      
+     }
+    </style>
+  </head>
+  <body>
+       <div id="app">
+        <h1>Calculator HTML & JS</h1>
+        <input type="text" id="op1" placeholder="Operador 1">
+
+        <input type="text" id="operador" placeholder="+, -, *, /">
+
+        <input type="text" id="op2" placeholder="Operador 2">
+
+        <input type="submit" value="Calcular" id="Calcular">
+        <p id="resultado"></p>
+       </div>
+
+  </body>
+</html>
